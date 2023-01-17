@@ -9,7 +9,7 @@ body{
 }
 
 
-#list{ 
+.list{ 
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
@@ -40,6 +40,10 @@ body{
 }
 
 
+
+
+
+
 /* button */
 .button{
     color: rgba(0, 0, 0, 0.5);
@@ -47,9 +51,8 @@ body{
     width: 100px;
     border: 2px solid #e7e7e7;
     margin-top: 12px;
-    margin-left: 24px;
+    margin-left: 60px;
     margin-bottom: 12px;
-    margin-right: 8px;
 }
 
 .button:hover {
@@ -58,35 +61,64 @@ body{
     color: white;
 }
 
+#button-position{
+    margin-left: 8px;
+}
+
 
 hr{
     margin-bottom: 30px;
+    color: rgba(0,  0, 0, 0.5);
 }
 
+
+
+
+
+/* list */
 
 .dart{
     font-size: 25px;
     padding-bottom: 12px;
 }
 
+
+
+
 .chapter{
     display: inline;
     font-family: 'Roboto',sans-serif;
 }
 
+
+
+
 .list-object{
     padding: 20px 60px;
 }
 
+
+
+
+.list-item{
+    padding-bottom: 10px;
+}
+
+
+
 ul{
     list-style-type: none;
 }
+
+
+
 
 .green-check{
     color: green;
     border: 1px solid green;
     border-radius: 50%;
     margin-right: 12px;
+    padding: 3px;
 }
 
 
@@ -95,6 +127,7 @@ ul{
     border: 1px solid red;
     border-radius: 50%;
     margin-right: 12px;
+    padding: 3px;
 }
 
 
@@ -158,4 +191,16 @@ ul{
     border: none;
     border-radius: 5px;
     padding: 8px;
+}
+
+
+
+.list-item{
+    padding-bottom: 10px;
+}
+
+
+footer{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
